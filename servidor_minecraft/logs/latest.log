@@ -1,0 +1,911 @@
+[06Nov2025 20:51:26.968] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[06Nov2025 20:51:26.972] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[06Nov2025 20:51:34.213] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Nov2025 20:51:34.395] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Msv-Survival-mods-forge/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[06Nov2025 20:51:34.867] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Msv-Survival-mods-forge/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[06Nov2025 20:51:34.868] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Msv-Survival-mods-forge/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Nov2025 20:51:34.869] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Msv-Survival-mods-forge/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Nov2025 20:51:34.875] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Msv-Survival-mods-forge/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Nov2025 20:51:35.404] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[06Nov2025 20:51:38.270] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Nov2025 20:51:38.558] [main/ERROR] [mixin/]: Mixin config celestisynth.mixins.json does not specify "minVersion" property
+[06Nov2025 20:51:38.564] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[06Nov2025 20:51:38.660] [main/WARN] [mixin/]: Reference map 'mixins.dried_ghast.refmap.json' for mixins.dried_ghast.json could not be read. If this is a development environment you can ignore this message
+[06Nov2025 20:51:38.814] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Nov2025 20:51:38.862] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Nov2025 20:51:38.903] [main/INFO] [Puzzles Lib/]: Loading 70 mods:
+	- advancementplaques 1.6.9
+	- alexscaves 2.0.2
+	- alexsmobs 1.22.9
+	- architectury 9.2.14
+	- balm 7.3.34
+		\-- kuma_api 20.1.10
+	- bettercombat 1.8.6+1.20.1
+	- betterdays 3.3.4.5
+		\-- whitenoise 1.1.1
+	- betterendisland 1.20-Forge-2.0.6
+	- betterstrongholds 1.20-Forge-4.0.3
+	- bettervillage 3.3.1
+	- block_factorys_bosses 1.0.9.1
+	- brewery 1.1.9
+	- carryon 2.1.2.7
+	- celestisynth 1.20.1-1.3.3
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- combatroll 1.3.3+1.20.1
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.21
+	- cosmeticarmorreworked 1.20.1-v1a
+	- create 6.0.6
+		|-- flywheel 1.0.4
+		\-- ponder 1.0.80
+	- curios 5.14.1+1.20.1
+	- doapi 1.2.15
+		\-- terraform 7.0.1
+	- dried_ghast 1.0.0
+	- elysium_api 1.1.3
+	- farmersdelight 1.20.1-1.2.9
+	- forge 47.3.7
+	- geckolib 4.7.4
+	- hangglider 8.0.1
+	- iceandfire 2.1.13-1.20.1
+	- iceberg 1.1.25
+	- immersive_paintings 0.6.8+1.20.1
+	- incapacitated 1.20.1-1.4.4.2
+	- incendium 5.3.5
+	- jade 11.13.2+forge
+	- jei 15.20.0.112
+	- justzoom 2.1.1
+	- konkrete 1.8.0
+	- libraryferret 4.0.0
+	- lootr 0.7.35.92
+	- minecraft 1.20.1
+	- mr_sleep 1-v2.1.3
+	- mr_typewriter_daycounter 1.0
+	- naturalist 5.0pre2
+		\-- midnightlib 1.4.2
+	- netherexp 2.3.5
+	- octolib 0.5.0.1
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- quark 4.0-462
+	- relics 0.8.0.9
+	- sophisticatedbackpacks 3.23.26.1315
+	- sophisticatedcore 1.2.83.1111
+	- terralith 2.5.4
+	- tlc 1.0.2
+	- travelerstitles 1.20-Forge-4.0.2
+	- treechop 0.19.0
+	- visualworkbench 8.0.1
+	- watut 1.20.1-1.2.3
+	- waystones 14.1.17
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+	- you_died 3.0.0.17
+	- yungsapi 1.20-Forge-4.0.6
+	- zeta 1.0-30
+[06Nov2025 20:51:39.915] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[06Nov2025 20:51:39.916] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[06Nov2025 20:51:39.917] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[06Nov2025 20:51:40.174] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[06Nov2025 20:51:40.174] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found mixins.block_factorys_bosses.json:PlayerRollMixin
+[06Nov2025 20:51:41.264] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[06Nov2025 20:51:49.091] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[06Nov2025 20:51:49.765] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[06Nov2025 20:51:49.767] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[06Nov2025 20:51:49.781] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[06Nov2025 20:51:50.555] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[06Nov2025 20:51:50.626] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[06Nov2025 20:51:50.626] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[06Nov2025 20:51:50.629] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[06Nov2025 20:51:50.629] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[06Nov2025 20:51:51.121] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for hangglider:main
+[06Nov2025 20:51:51.179] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[06Nov2025 20:51:51.500] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[06Nov2025 20:51:51.501] [modloading-worker-0/INFO] [zeta/]: Doing super early config setup for zeta
+[06Nov2025 20:51:51.724] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[06Nov2025 20:51:51.740] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id brewery:alcohol_sync_request
+[06Nov2025 20:51:51.741] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id brewery:drink_alcohol
+[06Nov2025 20:51:51.756] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[06Nov2025 20:51:51.908] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[06Nov2025 20:51:51.908] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[06Nov2025 20:51:51.919] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[06Nov2025 20:51:51.920] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[06Nov2025 20:51:51.920] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[06Nov2025 20:51:51.937] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[06Nov2025 20:51:51.951] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[06Nov2025 20:51:51.951] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[06Nov2025 20:51:51.952] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[06Nov2025 20:51:51.952] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[06Nov2025 20:51:51.954] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[06Nov2025 20:51:51.955] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[06Nov2025 20:51:51.955] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[06Nov2025 20:51:51.961] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[06Nov2025 20:51:51.962] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[06Nov2025 20:51:51.962] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[06Nov2025 20:51:51.973] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[06Nov2025 20:51:51.975] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[06Nov2025 20:51:51.977] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[06Nov2025 20:51:51.978] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[06Nov2025 20:51:51.979] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[06Nov2025 20:51:51.980] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[06Nov2025 20:51:51.982] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[06Nov2025 20:51:51.982] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[06Nov2025 20:51:51.982] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[06Nov2025 20:51:51.985] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[06Nov2025 20:51:51.988] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[06Nov2025 20:51:51.988] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[06Nov2025 20:51:51.991] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[06Nov2025 20:51:51.994] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[06Nov2025 20:51:51.996] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[06Nov2025 20:51:51.996] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[06Nov2025 20:51:52.078] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[06Nov2025 20:51:52.080] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[06Nov2025 20:51:52.082] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[06Nov2025 20:51:52.083] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[06Nov2025 20:51:52.084] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[06Nov2025 20:51:52.085] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[06Nov2025 20:51:52.086] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[06Nov2025 20:51:52.086] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[06Nov2025 20:51:52.087] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[06Nov2025 20:51:52.088] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[06Nov2025 20:51:52.089] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[06Nov2025 20:51:52.089] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[06Nov2025 20:51:52.090] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[06Nov2025 20:51:52.091] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[06Nov2025 20:51:52.093] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[06Nov2025 20:51:52.094] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[06Nov2025 20:51:52.095] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[06Nov2025 20:51:52.096] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[06Nov2025 20:51:52.097] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[06Nov2025 20:51:52.098] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[06Nov2025 20:51:52.099] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[06Nov2025 20:51:52.101] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[06Nov2025 20:51:52.107] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[06Nov2025 20:51:52.108] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[06Nov2025 20:51:52.109] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[06Nov2025 20:51:52.110] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[06Nov2025 20:51:52.112] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[06Nov2025 20:51:52.113] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[06Nov2025 20:51:52.126] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[06Nov2025 20:51:52.126] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[06Nov2025 20:51:52.129] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[06Nov2025 20:51:52.129] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[06Nov2025 20:51:52.132] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[06Nov2025 20:51:52.134] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[06Nov2025 20:51:52.136] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[06Nov2025 20:51:52.137] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[06Nov2025 20:51:52.138] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[06Nov2025 20:51:52.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[06Nov2025 20:51:52.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[06Nov2025 20:51:52.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[06Nov2025 20:51:52.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[06Nov2025 20:51:52.141] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[06Nov2025 20:51:52.142] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[06Nov2025 20:51:52.143] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[06Nov2025 20:51:52.149] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[06Nov2025 20:51:52.149] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[06Nov2025 20:51:52.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[06Nov2025 20:51:52.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[06Nov2025 20:51:52.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[06Nov2025 20:51:52.151] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[06Nov2025 20:51:52.151] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[06Nov2025 20:51:52.154] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[06Nov2025 20:51:52.155] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[06Nov2025 20:51:52.164] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[06Nov2025 20:51:52.165] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[06Nov2025 20:51:52.165] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[06Nov2025 20:51:52.165] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[06Nov2025 20:51:52.166] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[06Nov2025 20:51:52.166] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[06Nov2025 20:51:52.167] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[06Nov2025 20:51:52.167] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[06Nov2025 20:51:52.168] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[06Nov2025 20:51:52.169] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[06Nov2025 20:51:52.169] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[06Nov2025 20:51:52.169] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[06Nov2025 20:51:52.169] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[06Nov2025 20:51:52.170] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[06Nov2025 20:51:52.172] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[06Nov2025 20:51:52.173] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[06Nov2025 20:51:52.173] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[06Nov2025 20:51:52.174] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[06Nov2025 20:51:52.174] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[06Nov2025 20:51:52.175] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[06Nov2025 20:51:52.177] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[06Nov2025 20:51:52.180] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[06Nov2025 20:51:52.181] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[06Nov2025 20:51:52.181] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[06Nov2025 20:51:52.184] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[06Nov2025 20:51:52.184] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[06Nov2025 20:51:52.187] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[06Nov2025 20:51:52.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[06Nov2025 20:51:52.190] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[06Nov2025 20:51:52.191] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[06Nov2025 20:51:52.191] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[06Nov2025 20:51:52.191] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[06Nov2025 20:51:52.193] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[06Nov2025 20:51:52.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[06Nov2025 20:51:52.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[06Nov2025 20:51:52.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[06Nov2025 20:51:52.196] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[06Nov2025 20:51:52.196] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[06Nov2025 20:51:52.198] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[06Nov2025 20:51:52.206] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[06Nov2025 20:51:52.206] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[06Nov2025 20:51:52.207] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[06Nov2025 20:51:52.208] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[06Nov2025 20:51:52.209] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[06Nov2025 20:51:52.211] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[06Nov2025 20:51:52.212] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[06Nov2025 20:51:52.214] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[06Nov2025 20:51:52.216] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[06Nov2025 20:51:52.216] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[06Nov2025 20:51:52.217] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[06Nov2025 20:51:52.217] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[06Nov2025 20:51:52.217] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[06Nov2025 20:51:52.219] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[06Nov2025 20:51:52.220] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[06Nov2025 20:51:52.221] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[06Nov2025 20:51:52.221] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[06Nov2025 20:51:52.223] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[06Nov2025 20:51:52.224] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[06Nov2025 20:51:52.226] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[06Nov2025 20:51:52.226] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[06Nov2025 20:51:52.228] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[06Nov2025 20:51:52.229] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[06Nov2025 20:51:52.229] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[06Nov2025 20:51:52.230] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[06Nov2025 20:51:52.230] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[06Nov2025 20:51:52.231] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[06Nov2025 20:51:52.231] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[06Nov2025 20:51:52.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[06Nov2025 20:51:52.247] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[06Nov2025 20:51:52.247] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[06Nov2025 20:51:52.250] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[06Nov2025 20:51:52.251] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[06Nov2025 20:51:52.262] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[06Nov2025 20:51:52.262] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[06Nov2025 20:51:52.265] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[06Nov2025 20:51:52.265] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[06Nov2025 20:51:52.266] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[06Nov2025 20:51:52.267] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[06Nov2025 20:51:52.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[06Nov2025 20:51:52.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[06Nov2025 20:51:52.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[06Nov2025 20:51:52.361] [modloading-worker-0/INFO] [quark-zeta/]: Doing super early config setup for quark
+[06Nov2025 20:51:53.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@24fec3b3 has been registered twice for the same name treechop:chop_wood.
+[06Nov2025 20:51:58.748] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[06Nov2025 20:51:58.750] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[06Nov2025 20:51:59.189] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[06Nov2025 20:52:00.219] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterdays] Starting version check at https://raw.githubusercontent.com/wendall911/BetterDays/1.20.1/files/updates.json
+[06Nov2025 20:52:00.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterdays] Found status: UP_TO_DATE Current: 3.3.4.5 Target: null
+[06Nov2025 20:52:00.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[06Nov2025 20:52:00.557] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[06Nov2025 20:52:00.557] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[06Nov2025 20:52:00.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[06Nov2025 20:52:00.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Nov2025 20:52:00.646] [main/INFO] [zeta/]: Common setup: Performing initial refresh of zeta's config on thread 'main'
+[06Nov2025 20:52:00.647] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[06Nov2025 20:52:00.648] [main/INFO] [zeta/]: Waiting for server start before accepting filewatcher changes to zeta's config
+[06Nov2025 20:52:00.659] [main/INFO] [quark-zeta/]: Common setup: Performing initial refresh of quark's config on thread 'main'
+[06Nov2025 20:52:00.675] [main/INFO] [quark-zeta/]: Waiting for server start before accepting filewatcher changes to quark's config
+[06Nov2025 20:52:00.689] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[06Nov2025 20:52:00.690] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[06Nov2025 20:52:00.691] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[06Nov2025 20:52:00.691] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[06Nov2025 20:52:00.736] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[06Nov2025 20:52:00.737] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_sleep] Starting version check at https://api.modrinth.com/updates/WTzuSu8P/forge_updates.json
+[06Nov2025 20:52:00.774] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[06Nov2025 20:52:00.788] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[06Nov2025 20:52:00.789] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[06Nov2025 20:52:00.790] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[06Nov2025 20:52:00.792] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[06Nov2025 20:52:00.806] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[06Nov2025 20:52:00.811] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[06Nov2025 20:52:00.901] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_sleep] Found status: AHEAD Current: 1-v2.1.3 Target: null
+[06Nov2025 20:52:00.901] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[06Nov2025 20:52:01.408] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.21 Target: 1.20.1-1.0.23
+[06Nov2025 20:52:01.413] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[06Nov2025 20:52:01.520] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:579) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.3.7.jar%23226!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.3.7.jar%23226!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23226!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sat Sep 06 14:33:56 UTC 2025
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:621) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[06Nov2025 20:52:01.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/hangglider.json
+[06Nov2025 20:52:01.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[06Nov2025 20:52:01.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[06Nov2025 20:52:01.600] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:579) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.3.7.jar%23226!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.3.7.jar%23226!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23226!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sat Sep 06 14:33:56 UTC 2025
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:621) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[06Nov2025 20:52:01.607] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_typewriter_daycounter] Starting version check at https://api.modrinth.com/updates/gWO6Zqey/forge_updates.json
+[06Nov2025 20:52:01.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_typewriter_daycounter] Found status: OUTDATED Current: 1.0 Target: 1.4.19h+mod
+[06Nov2025 20:52:01.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[06Nov2025 20:52:01.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[06Nov2025 20:52:06.553] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Nov2025 20:52:11.160] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Msv-Survival-mods-forge/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/assets/.mcassetsroot' uses unexpected schema
+[06Nov2025 20:52:11.160] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Msv-Survival-mods-forge/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/data/.mcassetsroot' uses unexpected schema
+[06Nov2025 20:52:11.267] [main/INFO] [com.simibubi.create.Create/]: Created 242 recipes which will be injected into the game
+[06Nov2025 20:52:11.278] [main/INFO] [com.simibubi.create.Create/]: Created 1 tags which will be injected into the game
+[06Nov2025 20:52:12.130] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[06Nov2025 20:52:13.177] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[06Nov2025 20:52:13.408] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag curios:spellbook as it is missing following references: celestisynth:celestial_spell_book (from celestisynth-1.20.1-1.3.3-all.jar)
+[06Nov2025 20:52:14.392] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:naturalist:entities/tortoise
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:turtle_scute'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23230!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23230!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[06Nov2025 20:52:15.315] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe celestisynth:celestial_spellbook
+com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:ruined_book'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23230!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23230!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23230!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[06Nov2025 20:52:15.354] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[06Nov2025 20:52:15.511] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 2986 recipe advancements
+[06Nov2025 20:52:15.525] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 715 advancements
+[06Nov2025 20:52:15.550] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[06Nov2025 20:52:15.555] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[06Nov2025 20:52:15.556] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[06Nov2025 20:52:15.559] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[06Nov2025 20:52:15.562] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[06Nov2025 20:52:15.563] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[06Nov2025 20:52:15.563] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[06Nov2025 20:52:15.563] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[06Nov2025 20:52:15.564] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[06Nov2025 20:52:15.564] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[06Nov2025 20:52:15.564] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[06Nov2025 20:52:15.564] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[06Nov2025 20:52:15.564] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[06Nov2025 20:52:20.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Nov2025 20:52:20.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Nov2025 20:52:20.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Nov2025 20:52:20.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Nov2025 20:52:20.342] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Nov2025 20:52:20.365] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Nov2025 20:52:20.436] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Nov2025 20:52:20.436] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Nov2025 20:52:20.437] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Nov2025 20:52:20.437] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Nov2025 20:52:20.460] [Server thread/INFO] [Puzzles Lib/]: Loading server config for hangglider
+[06Nov2025 20:52:20.462] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for hangglider
+[06Nov2025 20:52:20.464] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for hangglider
+[06Nov2025 20:52:20.929] [Server thread/INFO] [zeta/]: Server starting, accepting filewatcher changes for zeta's config
+[06Nov2025 20:52:20.929] [Server thread/INFO] [quark-zeta/]: Server starting, accepting filewatcher changes for quark's config
+[06Nov2025 20:52:20.931] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[06Nov2025 20:52:20.931] [Server thread/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[06Nov2025 20:52:20.932] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[06Nov2025 20:52:20.932] [Server thread/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[06Nov2025 20:52:20.933] [Server thread/INFO] [citadel/]: merged 6 surface rules with vanilla rule BlockRuleSource
+[06Nov2025 20:52:20.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Nov2025 20:52:32.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Nov2025 20:52:33.713] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2025 20:52:33.750] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2025 20:52:33.764] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2025 20:52:33.792] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2025 20:52:34.289] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2025 20:52:34.792] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2025 20:52:35.293] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2025 20:52:35.789] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2025 20:52:36.292] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[06Nov2025 20:52:36.789] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[06Nov2025 20:52:37.018] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4730 ms
+[06Nov2025 20:52:37.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.571s)! For help, type "help"
+[06Nov2025 20:52:37.230] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Nov2025 20:52:37.235] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[06Nov2025 20:52:37.235] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[06Nov2025 20:52:37.285] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 48001 bytes (in 5 string chunks with the size of 10000)
+[06Nov2025 20:54:21.688] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[06Nov2025 20:54:21.888] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mz_Exility[/127.66.86.238:45513] logged in with entity id 128 at (1707.5, 63.0, -2961.5)
+[06Nov2025 20:54:21.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility joined the game
+[06Nov2025 20:54:22.067] [Server thread/INFO] [Jade/]: Syncing config to Mz_Exility (e477fe18-1863-3eff-a4dc-7a48fc395562)
+[06Nov2025 20:54:25.816] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4031ms or 80 ticks behind
+[06Nov2025 20:58:45.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1210.500000, 124.500000, -3487.500000]
+[06Nov2025 21:00:42.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1706.500000, 63.500000, -2959.500000]
+[06Nov2025 21:02:13.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 793.500000, 68.500000, -3726.500000]
+[06Nov2025 21:10:46.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility is incapacitated!
+[06Nov2025 21:11:06.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Set own game mode to Creative Mode]
+[06Nov2025 21:11:10.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Set own game mode to Survival Mode]
+[06Nov2025 21:11:26.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility has made the advancement [Not Today, Thank You]
+[06Nov2025 21:13:21.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[06Nov2025 21:13:27.607] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=289, y=-38, z=-2420}
+[06Nov2025 21:13:31.621] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=327, y=-14, z=-2406}
+[06Nov2025 21:13:32.193] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:fletching_table} but failed at location BlockPos{x=292, y=-38, z=-2414}
+[06Nov2025 21:13:32.194] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=291, y=-38, z=-2416}
+[06Nov2025 21:13:41.317] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=314, y=-38, z=-2361}
+[06Nov2025 21:13:43.354] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=252, y=-22, z=-2347}
+[06Nov2025 21:14:39.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility is incapacitated!
+[06Nov2025 21:14:41.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1706.500000, 63.500000, -2959.500000]
+[06Nov2025 21:14:52.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Set own game mode to Creative Mode]
+[06Nov2025 21:14:58.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Set own game mode to Survival Mode]
+[06Nov2025 21:26:33.066] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joxtinpro7[/127.7.248.255:33481] logged in with entity id 16556 at (1691.5752030294202, 63.0, -2981.319081024143)
+[06Nov2025 21:26:33.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 joined the game
+[06Nov2025 21:26:33.216] [Server thread/INFO] [Jade/]: Syncing config to joxtinpro7 (a0e10311-d1c5-39fc-9339-478c8cbd0169)
+[06Nov2025 21:27:26.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> tienes madera
+[06Nov2025 21:27:36.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> o hazme una mesa
+[06Nov2025 21:27:56.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> ahora tengo mesa en mi mochil axd
+[06Nov2025 21:28:02.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> xd
+[06Nov2025 21:28:19.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> amigos
+[06Nov2025 21:29:05.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> ???
+[06Nov2025 21:30:25.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> aca hay aldea
+[06Nov2025 21:32:02.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> onde
+[06Nov2025 21:32:10.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> estuve buscando como por 6k de bloques y no encontraba
+[06Nov2025 21:32:19.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> veni
+[06Nov2025 21:33:11.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> onde
+[06Nov2025 21:33:30.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> fuiste por la nieve?
+[06Nov2025 21:34:28.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> aca
+[06Nov2025 21:35:51.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> qwertyuiopasdfghjklñzxcvbnm
+[06Nov2025 21:36:47.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of joxtinpro7) moved wrongly! 0.5422796518773794
+[06Nov2025 21:36:47.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of joxtinpro7) moved wrongly! 1.1506429489127186
+[06Nov2025 21:36:48.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of joxtinpro7) moved wrongly! 1.4547535311016873
+[06Nov2025 21:36:48.050] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of joxtinpro7) moved wrongly! 2.0390256287814736
+[06Nov2025 21:36:48.050] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of joxtinpro7) moved wrongly! 2.6116122956518666
+[06Nov2025 21:36:55.696] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mz_Exility lost connection: Disconnected
+[06Nov2025 21:36:55.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility left the game
+[06Nov2025 21:36:55.748] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06Nov2025 21:37:18.415] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mz_Exility[/127.66.86.238:60313] logged in with entity id 20164 at (1717.0001038052649, 62.04958294416951, -3016.6732023660156)
+[06Nov2025 21:37:18.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility joined the game
+[06Nov2025 21:37:18.560] [Server thread/INFO] [Jade/]: Syncing config to Mz_Exility (e477fe18-1863-3eff-a4dc-7a48fc395562)
+[06Nov2025 21:37:44.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mz_Exility moved too quickly! -0.062477534145045865,-12.140700159872239,-0.8527978902802715
+[06Nov2025 21:37:47.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mz_Exility was kicked for floating too long!
+[06Nov2025 21:37:47.401] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mz_Exility lost connection: Flying is not enabled on this server
+[06Nov2025 21:37:47.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility left the game
+[06Nov2025 21:38:47.652] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4991b220[id=<null>,name=Mz_Exility,properties={},legacy=false] (/127.207.6.59:38517) lost connection: Disconnected
+[06Nov2025 21:38:53.966] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mz_Exility[/127.207.6.59:51087] logged in with entity id 20593 at (1719.7759936920518, 66.0824755719627, -3032.3941329339686)
+[06Nov2025 21:38:53.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility joined the game
+[06Nov2025 21:38:54.056] [Server thread/INFO] [Jade/]: Syncing config to Mz_Exility (e477fe18-1863-3eff-a4dc-7a48fc395562)
+[06Nov2025 21:38:59.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> ven
+[06Nov2025 21:40:28.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> no puedo correr xd
+[06Nov2025 21:41:31.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> ya la vi
+[06Nov2025 21:43:45.954] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mz_Exility moved wrongly!
+[06Nov2025 21:44:09.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility has reached the goal [Plant Food]
+[06Nov2025 21:44:21.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> mira esto xd
+[06Nov2025 21:45:05.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> xd
+[06Nov2025 21:45:18.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> hay que llevar los aldeanos a la bse xd
+[06Nov2025 21:46:56.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> mira esto xd
+[06Nov2025 21:48:56.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> onde estas
+[06Nov2025 21:49:11.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> tomando prestado un aldeano xd
+[06Nov2025 21:49:17.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> ya llegue a la base xd
+[06Nov2025 21:49:31.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> xdd
+[06Nov2025 21:52:25.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 is incapacitated!
+[06Nov2025 21:52:29.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> xd
+[06Nov2025 21:52:42.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 was doomed to fall
+[06Nov2025 21:52:50.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> ptm
+[06Nov2025 21:55:49.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> traeme libro de la aldea xd
+[06Nov2025 21:55:50.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> A
+[06Nov2025 21:55:52.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> recien vi
+[06Nov2025 21:55:53.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> XDD
+[06Nov2025 21:55:55.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> xd
+[06Nov2025 21:56:04.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> traeme libros
+[06Nov2025 21:56:23.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> voy
+[06Nov2025 21:56:55.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> el aldeano tiene casa y nosotros no xd
+[06Nov2025 21:57:51.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility is incapacitated!
+[06Nov2025 21:58:48.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> xdd
+[06Nov2025 21:58:52.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility was slain by Zombie and bled out
+[06Nov2025 21:59:04.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1622.500000, 64.500000, -3384.500000]
+[06Nov2025 21:59:12.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> por ver tu tarea xd
+[06Nov2025 22:01:53.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> xd una waystone
+[06Nov2025 22:02:03.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> dn
+[06Nov2025 22:02:13.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1706.500000, 63.500000, -2959.500000]
+[06Nov2025 22:02:16.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> en la aldea
+[06Nov2025 22:03:15.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joxtinpro7 was kicked for floating too long!
+[06Nov2025 22:03:16.046] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joxtinpro7 lost connection: Flying is not enabled on this server
+[06Nov2025 22:03:16.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 left the game
+[06Nov2025 22:05:24.262] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joxtinpro7[/127.7.248.255:43799] logged in with entity id 37404 at (1656.3320975731885, 110.36199681972943, -2972.2022883237073)
+[06Nov2025 22:05:24.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 joined the game
+[06Nov2025 22:05:24.342] [Server thread/INFO] [Jade/]: Syncing config to joxtinpro7 (a0e10311-d1c5-39fc-9339-478c8cbd0169)
+[06Nov2025 22:05:36.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joxtinpro7 was kicked for floating too long!
+[06Nov2025 22:05:37.052] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joxtinpro7 lost connection: Flying is not enabled on this server
+[06Nov2025 22:05:37.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 left the game
+[06Nov2025 22:07:15.812] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joxtinpro7[/127.7.248.255:42085] logged in with entity id 37692 at (1656.3320975731885, 110.36199681972943, -2972.2022883237073)
+[06Nov2025 22:07:15.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 joined the game
+[06Nov2025 22:07:15.897] [Server thread/INFO] [Jade/]: Syncing config to joxtinpro7 (a0e10311-d1c5-39fc-9339-478c8cbd0169)
+[06Nov2025 22:07:18.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported joxtinpro7 to Mz_Exility]
+[06Nov2025 22:07:21.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 is incapacitated!
+[06Nov2025 22:07:30.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 has been revived!
+[06Nov2025 22:09:08.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> q nombre le ponemos
+[06Nov2025 22:09:14.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> a la waystone?
+[06Nov2025 22:09:23.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> mmmmm
+[06Nov2025 22:09:36.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> casa pro
+[06Nov2025 22:09:39.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> xd
+[06Nov2025 22:09:40.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> xdd
+[06Nov2025 22:10:05.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> algo ma elaborad
+[06Nov2025 22:10:06.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> xd
+[06Nov2025 22:10:06.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> donde se consigue el ala delta
+[06Nov2025 22:10:20.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> mira ps
+[06Nov2025 22:10:25.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> en el inve
+[06Nov2025 22:10:27.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> escribe
+[06Nov2025 22:10:29.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> hang
+[06Nov2025 22:10:31.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> glider
+[06Nov2025 22:10:54.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> aya xd
+[06Nov2025 22:11:07.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> voy a seguir trayendo aldeanos
+[06Nov2025 22:11:10.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> vamos a mina
+[06Nov2025 22:11:32.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> vamos al nether
+[06Nov2025 22:11:33.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> xd
+[06Nov2025 22:11:37.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> ya
+[06Nov2025 22:12:00.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> ahi ta la waystone
+[06Nov2025 22:12:01.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> xd
+[06Nov2025 22:12:14.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> si se
+[06Nov2025 22:12:28.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> yo la encontre enante
+[06Nov2025 22:12:41.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> pero no sabia como se llamaba
+[06Nov2025 22:12:57.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> me baja a 0 fps xd
+[06Nov2025 22:13:03.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> sacale el mod
+[06Nov2025 22:13:09.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> q se llama fps reducer
+[06Nov2025 22:13:12.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> abre any
+[06Nov2025 22:13:13.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> xd
+[06Nov2025 22:13:24.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1706.500000, 63.500000, -2959.500000]
+[06Nov2025 22:13:33.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> ok, y para q sirve ese mod?
+[06Nov2025 22:13:39.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> para bajar los fps
+[06Nov2025 22:13:43.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> cuando no estes en el mc
+[06Nov2025 22:15:02.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mz_Exility has completed the challenge [Centennial]
+[06Nov2025 22:15:39.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1706.500000, 63.500000, -2959.500000]
+[06Nov2025 22:18:43.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> volvi
+[06Nov2025 22:18:56.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> xd
+[06Nov2025 22:19:17.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joxtinpro7> 2 fps xd
+[06Nov2025 22:19:25.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mz_Exility> por el mod
+[06Nov2025 22:21:25.062] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joxtinpro7 lost connection: Disconnected
+[06Nov2025 22:21:25.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 left the game
+[06Nov2025 22:24:19.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1706.500000, 63.500000, -2959.500000]
+[06Nov2025 22:26:01.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1706.500000, 63.500000, -2959.500000]
+[06Nov2025 22:26:47.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mz_Exility: Teleported Mz_Exility to 1706.500000, 63.500000, -2959.500000]
+[06Nov2025 22:27:45.209] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joxtinpro7[/127.251.39.101:36245] logged in with entity id 47791 at (1710.566578286246, 63.0, -2957.7108896427217)
+[06Nov2025 22:27:45.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joxtinpro7 joined the game
+[06Nov2025 22:27:45.305] [Server thread/INFO] [Jade/]: Syncing config to joxtinpro7 (a0e10311-d1c5-39fc-9339-478c8cbd0169)
